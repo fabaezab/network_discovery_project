@@ -1,0 +1,19 @@
+Descripción de Carpetas y Archivos:
+
+- network_discovery_project/: Directorio raíz del proyecto.
+- src/: Contiene el código fuente del proyecto.
+  - main.py: Punto de entrada del programa, donde se ejecuta el menú principal.
+  - menu.py: Gestiona la presentación y selección del menú.
+  - discovery/: Contiene los módulos de descubrimiento.
+    - discover_servers.py: Implementa la funcionalidad para descubrir servidores.
+    - discover_ports.py: Implementa la funcionalidad para descubrir puertos en un servidor específico.
+    - discover_ports_of_connected_servers.py: Implementa la funcionalidad para descubrir puertos de servidores conectados.
+  - models/: Contiene las clases de modelos de datos.
+    - host.py: Define la clase Host para representar los servidores descubiertos.
+- tests/: Contiene los archivos de pruebas unitarias.
+  - test_discover_servers.py: Pruebas para el módulo de descubrimiento de servidores.
+  - test_discover_ports.py: Pruebas para el módulo de descubrimiento de puertos.
+  - test_discover_ports_of_connected_servers.py: Pruebas para el módulo de descubrimiento de puertos de servidores conectados.
+- requirements.txt: Lista de dependencias del proyecto.
+- README.md: Descripción general del proyecto y cómo configurarlo.
+- .gitignore: Archivos y carpetas que Git debe ignorar.
