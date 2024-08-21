@@ -3,8 +3,8 @@ Network Discovery Project - Discover Ports Module
 
 Este módulo contiene funciones para escanear puertos abiertos en una dirección IP específica.
 
-Autor: Felipe A Baeza B
-Fecha: 25-07-2024
+Author: Felipe A Baeza B
+Date: 25-07-2024
 """
 
 import socket

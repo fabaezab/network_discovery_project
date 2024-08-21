@@ -3,8 +3,8 @@ Network Discovery Project - Host Model
 
 Este módulo define la clase Host utilizada para representar un servidor en la red.
 
-Autor: Felipe A Baeza B
-Fecha: 25-07-2024
+Author: Felipe A Baeza B
+Date: 25-07-2024
 """
 
 class Host:

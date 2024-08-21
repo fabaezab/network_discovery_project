@@ -3,8 +3,8 @@ Network Discovery Project - Discover Servers Module
 
 Este módulo contiene funciones para descubrir servidores conectados en una subred específica.
 
-Autor: Felipe A Baeza B
-Fecha: 25-07-2024
+Author: Felipe A Baeza B
+Date: 25-07-2024
 """
 
 from ..models.host import Host
